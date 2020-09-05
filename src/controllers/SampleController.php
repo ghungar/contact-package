@@ -16,7 +16,7 @@ class SampleController extends Controller
     public function store(Request $request)
     {
 
-       return $get_email_from_congig = config('contact.send_email_to');
+       $get_email_from_congig = config('contact.send_email_to');
 
        $result = Contact::create([
             'name' => $request->name,
