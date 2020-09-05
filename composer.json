@@ -1,0 +1,19 @@
+{
+    "name": "raman/contact",
+    "description": "This is test package with contact us form",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ghungar",
+            "email": "ghungar97@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Raman\\Contact\\": "src/"
+        }
+    }
+}
