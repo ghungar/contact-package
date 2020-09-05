@@ -21,6 +21,7 @@
             "providers": [
                 "Raman\\Contact\\ContactServiceProvider"
             ]
+
         }
     }
 }
