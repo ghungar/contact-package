@@ -15,5 +15,12 @@
         "psr-4": {
             "Raman\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Raman\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
